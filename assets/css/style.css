@@ -46,6 +46,11 @@
     background-color: var(--white);
 }
 
+.menu-line {
+    font-weight: var(--fw-500) !important;
+    transition: all .3s linear;
+}
+
 .menu-line:hover {
     -webkit-text-stroke: 1px var(--White) !important;
 }

@@ -13,7 +13,7 @@
     background-position: center;
     object-fit: cover;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
 }
 
 .btn-connect {
@@ -46,6 +46,10 @@
     background-color: var(--white);
 }
 
+.menu-line:hover {
+    -webkit-text-stroke: 1px var(--White) !important;
+}
+
 .menu-line:hover::after {
     width: 100%;
     left: 0;
@@ -54,8 +58,8 @@
 .bg_head {
     background-image: url("../images/webp/bg-sec-1.webp");
     background-repeat: no-repeat;
-    /* background-position: center; */
-    background-size: cover;
+    background-position: center;
+    background-size: 100% 100%;
     object-fit: cover;
 }
 

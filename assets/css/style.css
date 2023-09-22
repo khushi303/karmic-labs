@@ -70,22 +70,22 @@
 .btn-start {
     padding: 12px 24px;
     border-radius: 90px;
-    background: transparent;
+    background: var(--White) !important;
     border: 1px solid var(--white);
     transition: .3s linear;
 }
 
 .btn-start:hover {
-    background: var(--white);
+    background: transparent !important;
 }
 
 .btn-start:hover p {
-    color: var(--black04) !important;
-    -webkit-text-stroke: 0.7px var(--black04);
+    color: var(--white) !important;
+    -webkit-text-stroke: 0.7px var(--White);
 }
 
 .btn-start:hover svg path {
-    fill: var(--black04);
+    fill: var(--white);
 }
 
 

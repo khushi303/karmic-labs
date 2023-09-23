@@ -90,3 +90,12 @@
 .text_black04 {
     color: var(--black04);
 }
+
+.fw_500 {
+    font-weight: var(--fw-500);
+    transition: all .3s linear;
+}
+
+.fw_500:hover {
+    -webkit-text-stroke: 1px white;
+}
